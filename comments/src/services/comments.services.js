@@ -1,5 +1,3 @@
-const Comments = require('../comments.models.js');
-
 const createComment = async (commentBody) => {
 try {
 const comment = await Comments.create(commentBody);
