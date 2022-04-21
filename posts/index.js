@@ -11,7 +11,6 @@ console.log('Connected to Database.....');
 }
 });
 
-
 const app = express();
 
 app.use(express.json());
