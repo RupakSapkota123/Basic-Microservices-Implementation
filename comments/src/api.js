@@ -3,6 +3,6 @@ const commentsRoutes = require('./comments.routes');
 
 const router = express.Router();
 
-router.use('/post', commentsRoutes);
+router.use('/posts', commentsRoutes);
 
 module.exports = router;
